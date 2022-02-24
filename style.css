@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+.navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button {
+    margin-top: 10px;
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px  solid  #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.polosi {
+    width: 1px;
+    height: 1px;
+    margin-top: 530px;
+    padding-left: 6%;
+    cursor: pointer;
+}
+
+.bushbar {
+    margin-left: 85%;
+    padding-bottom: 60%;
+    
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    transform: translateY(-50%);
+    z-index: 2;
+    margin: auto;
+}
+h1 {
+    font-size: 60px;
+    margin: 5x 0 25px;
+    line-height: 88px;
+}
+.side-bar {
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#50007F, #7100B0);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/282596@2x.png);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    overflow: hidden;
+
+}
+.menu {
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.social-links img, .usefull-links img {
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.social-links {
+    width: 53px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.usefull-links {
+    width: 53px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.logo:hover {
+	animation: bounce 1s;
+}
+.menu:hover {
+	animation: bounce 1s;
+}
+button:hover {
+    background: #7B00C3;
+}   
+
+.ph:hover{
+   transform: scale(1.1);
+}
